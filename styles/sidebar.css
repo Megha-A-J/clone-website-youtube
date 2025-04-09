@@ -1,0 +1,40 @@
+ .sidebar{
+  position:fixed;
+  left:0;
+  bottom:0;
+  top:75px;
+  background-color: white;
+  width:100px;
+  padding-top: 5px;
+}
+.sidebar-link{
+  height:70px;
+  display:flex;
+  align-items: center;
+  flex-direction: row;
+  z-index:99;
+  cursor:pointer;
+}
+.sidebar-link:hover{
+  background-color: rgb(240, 236, 236);
+}
+.sidebar-link img{
+  width:23px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+.sidebar-link div{
+  font-family: roboto,arial;
+  font-size:15px;
+  margin-left:17px;
+  
+
+}
+.subscription-sidebar{
+  font-weight: 500;
+  margin-left: 20px;
+
+}
+.sub-pro-sidebar{
+  border-radius: 15px;;
+}

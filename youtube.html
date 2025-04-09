@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>youtube-web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/video.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+ <!-- OPENING div[for evrything inside the header](the left side,middle,right,the horizo.buttons)-->
+    <div class="header">
+      
+     <!--div for left section of the header-->
+       <div class="left">
+        <img class=hamburger-icon src="icons/hamburger.svg">
+        <img class=youtube-icon src="icons/youtube icon.svg">
+       </div>
+
+      <!--div for middle section of the header-->
+       <div class="middle">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="lens-button">
+          <img class="lens-icon" src="icons/lens.svg">
+        </button>    
+        <button class="microphone-button">   
+         <img class="microphone-icon" src="icons/microphone.svg">
+        </button>  
+       </div>
+       
+       <!--OPENING div of right section of the header-->
+       <div class="right">
+        <!--"+create button"-->
+        <button class="create-button">        
+        <img class="create-icon" src="icons/create.svg">
+        Create
+       </button>
+       <!--notification count div created inside the notification container div inorder to make position relative and position absolute-->
+       <div class="notification-container">
+        <img class=notification-icon src="icons/notification.svg">
+        <div class="notification-count">4</div>
+      </div>
+         <!--pro-pic icon image-->
+         
+        <img class=pro-pic-icon src="icons/pro-pic-icon.jpg">
+      
+        <!--CLOSING div of the right section-->
+       </div> 
+       <!--CLOSING div of the header-->
+       </div> 
+
+       
+       
+    
+    
+   <div class="sidebar">
+    <div class="sidebar-link">
+      <img class="home" src="icons/home.svg">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img class="subscription"  src="icons/subscription.svg">
+      <div>subscription</div>
+    </div>
+    <div class="sidebar-link">
+      <img class="profile" src="icons/history.svg">
+      <div>History</div>
+    </div>
+    <div class="sidebar-link">
+      <img class="download" src="icons/your videos.svg">
+      <div>Your&nbsp;videos</div>
+    </div>
+    <div class="sidebar-link">
+      <img class="watch-later" src="icons/watch later.svg">
+      <div>Watch&nbsp;later</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/liked.svg">
+      <div>Liked&nbsp;videos</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/download.svg">
+      <div>Downloads</div>
+    </div>
+    <div class="subscription-sidebar">Subscriptions</div>
+    <div class="sidebar-link">
+      <img class="sub-pro-sidebar"  src="profile-pictures/sub-profile-1.jpg">
+      <div>MediaoneTV</div>
+    </div>
+    <div class="sidebar-link">
+      <img class="sub-pro-sidebar"  src="profile-pictures/sub-profile-2.jpg">
+      <div>MathrubhumiNews</div>
+    </div>
+    <div class="sidebar-link">
+      <img class="sub-pro-sidebar"  src="profile-pictures/sub-profile-3.jpg">
+      <div> REPORTER </div>
+    </div>
+    <div class="sidebar-link">
+      <img class="sub-pro-sidebar"  src="profile-pictures/sub-profile-4.jpg">
+      <div>ABC&nbsp;News</div>
+    </div>
+
+   </div>
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="video-thumbnail">
+          <img class="thumbnail"  src="thumbnails/thumbnail-1.avif">
+          <div class="video-time">5:27</div>
+        </div>
+        <div class="video-pro-info">
+          <div class="video-pro-pic" >
+            <img class=pro-pic src="profile-pictures/profile-pic-1.jpg">
+          </div>
+          <div class="video-info">
+            <p class="title">
+              Emma Watson Makes An Espresso Martini, ‘Emma Spritz’ & 3 Other Classic Cocktails
+            </p>
+            <p class="author">
+              British Vogue
+            </p>
+            <p class="stats">
+              3.2M views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="video-thumbnail">
+            <img class="thumbnail"  src="thumbnails/thumbnail-2.avif">
+            <div class="video-time">20:05</div>
+          </div>
+          <div class="video-pro-info">
+            <div class="video-pro-pic" >
+              <img class=pro-pic src="profile-pictures/profile-pic-2.jpg">
+            </div>
+            <div class="video-info">
+              <p class="title">
+                A new chapter.
+              </p>
+              <p class="author">
+                Pick Up Limes
+              </p>
+              <p class="stats">
+                216K views &#183; 17 hours ago
+              </p>
+            </div>
+          </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="video-thumbnail">
+              <img class="thumbnail"  src="thumbnails/thumbnail-3.avif">
+              <div class="video-time">45:00</div>
+            </div>
+            <div class="video-pro-info">
+              <div class="video-pro-pic" >
+                <img class=pro-pic src="profile-pictures/profile-pic-3.jpg">
+              </div>
+              <div class="video-info">
+                <p class="title">
+                  Went to Kochi to see Bioluminescence and also for some work | Ahaana Krishna
+                </p>
+                <p class="author">
+                  Ahaana Krishna
+                </p>
+                <p class="stats">
+                  12K views &#183; 1 hour ago
+                </p>
+              </div>
+            </div>
+            </div>
+
+            <div class="video-preview">
+              <div class="video-thumbnail">
+                <img class="thumbnail"  src="thumbnails/thumbnail-4.avif">
+                <div class="video-time">25:29</div>
+              </div>
+              <div class="video-pro-info">
+                <div class="video-pro-pic" >
+                  <img class=pro-pic src="profile-pictures/profile-pic-4.jpg">
+                </div>
+                <div class="video-info">
+                  <p class="title">
+                    a day in the life of an engineer working from home
+                  </p>
+                  <p class="author">
+                    Joma Tech
+                  </p>
+                  <p class="stats">
+                   21M views &#183; 3 years ago
+                  </p>
+                </div>                              
+              </div>
+              </div>
+
+              <div class="video-preview">
+                <div class="video-thumbnail">
+                  <img class="thumbnail"  src="thumbnails/thumbnail-5.avif">
+                  <div class="video-time">3:04</div>
+                </div>
+                <div class="video-pro-info">
+                  <div class="video-pro-pic" >
+                    <img class=pro-pic src="profile-pictures/profile-pic-5.jpg">
+                  </div>
+                  <div class="video-info">
+                    <p class="title">
+                      Leonardo DiCaprio winning Best Actor | 88th Oscars (2016)
+                    </p>
+                    <p class="author">
+                      Oscars
+                    </p>
+                    <p class="stats">
+                      57M views &#183; 9 years ago
+                    </p>
+                  </div>
+                </div>
+                </div>
+
+                <div class="video-preview">
+                  <div class="video-thumbnail">
+                    <img class="thumbnail"  src="thumbnails/thumbnail-6.avif">
+                    <div class="video-time">7:09</div>
+                  </div>
+                  <div class="video-pro-info">
+                    <div class="video-pro-pic" >
+                      <img class=pro-pic src="profile-pictures/profile-pic-6.jpg">
+                    </div>
+                    <div class="video-info">
+                      <p class="title">
+                        Best of the Harry Potter Cast on 'The Ellen Show'
+                      </p>
+                      <p class="author">
+                        TheEllenShow
+
+                      </p>
+                      <p class="stats">
+                        2M views &#183; 2 years ago
+                      </p>
+                    </div>
+                  </div>
+                  </div>
+
+                  <div class="video-preview">
+                    <div class="video-thumbnail">
+                      <img class="thumbnail"  src="thumbnails/thumbnail-7.avif">
+                      <div class="video-time">2:27</div>
+                    </div>
+                    <div class="video-pro-info">
+                      <div class="video-pro-pic" >
+                        <img class=pro-pic src="profile-pictures/profile-pic-7.jpg">
+                      </div>
+                      <div class="video-info">
+                        <p class="title">
+                          Nee | Varathan | Video Song | Fahadh Faasil | Amal Neerad | Nazriya Nazim | ANP & FFF
+                        </p>
+                        <p class="author">
+                          GOODWILL ENTERTAINMENTS 
+                        </p>
+                        <p class="stats">
+                          27M views &#183; 6 years ago
+                        </p>
+                      </div>
+                    </div>
+                    </div>
+
+                    <div class="video-preview">
+                      <div class="video-thumbnail">
+                        <img class="thumbnail"  src="thumbnails/thumbnail-8.avif">
+                        <div class="video-time">30:45</div>
+                      </div>
+                      <div class="video-pro-info">
+                        <div class="video-pro-pic" >
+                          <img class=pro-pic src="profile-pictures/profile-pic-8.jpg">
+                         
+                        </div>
+                        <div class="video-info">
+                          <p class="title">
+                            Life in a Swiss Alpine village | Heavy rain fell while cows were grazing outside the farm!!
+                          </p>
+                          <p class="author">
+                            Travillage   
+                          </p>
+                          <p class="stats">
+                            3.7M views &#183; 9 months ago
+                          </p>
+                        </div>
+                      </div>
+                      </div>
+
+                      <div class="video-preview">
+                        <div class="video-thumbnail">
+                          <img class="thumbnail"  src="thumbnails/thumbnail-9.avif">
+                          <div class="video-time">1:28:27</div>
+                        </div>
+                        <div class="video-pro-info">
+                          <div class="video-pro-pic" >
+                            <img class=pro-pic src="profile-pictures/profile-pic-9.jpg">
+                          </div>
+                          <div class="video-info">
+                            <p class="title">
+                              The Limits Of Reason | Explained in Malayalam
+                              Nissaaram!                              
+                            </p>
+                            <p class="author">
+                              Nissaram!
+                            </p>
+                            <p class="stats">
+                              104K views &#183; 2 days ago
+                            </p>
+                          </div>
+                        </div>
+                        </div>
+
+                        <div class="video-preview">
+                          <div class="video-thumbnail">
+                            <img class="thumbnail"  src="thumbnails/thumbnail-10.avif">
+                            <div class="video-time">5:20</div>
+                          </div>
+                          <div class="video-pro-info">
+                            <div class="video-pro-pic" >
+                              <img class=pro-pic src="profile-pictures/profile-pic-10.jpg">
+                            </div>
+                            <div class="video-info">
+                              <p class="title">
+                                Empuraan വിവാദം ആർക്കാണ് നേട്ടം ! | Empuraan Issue |Mohanlal| Prithviraj Murali Gopi|Mallu Analyst
+                              </p>
+                              <p class="author">
+                                The Mallu Analyst
+                              </p>
+                              <p class="stats">
+                                131K views &#183; 3 days ago
+                              </p>
+                            </div>
+                          </div>
+                          </div>
+
+                          <div class="video-preview">
+                            <div class="video-thumbnail">
+                              <img class="thumbnail"  src="thumbnails/thumbnail-11.avif">
+                              <div class="video-time">10:15</div>
+                            </div>
+                            <div class="video-pro-info">
+                              <div class="video-pro-pic" >
+                                <img class=pro-pic src="profile-pictures/profile-pic-11.jpg">
+                              </div>
+                              <div class="video-info">
+                                <p class="title">
+                                  Coding was HARD until I learned these 7 things
+                                </p>
+                                <p class="author">
+                                  Sahil & Sarra          
+                                </p>
+                                <p class="stats">
+                                  146K views &#183; 8 months ago
+                                </p>
+                              </div>
+                            </div>
+                            </div>
+
+                            <div class="video-preview">
+                              <div class="video-thumbnail">
+                                <img class="thumbnail"  src="thumbnails/thumbnail-12.avif">
+                                <div class="video-time">1:27:08</div>
+                              </div>
+                              <div class="video-pro-info">
+                                <div class="video-pro-pic" >
+                                  <img class=pro-pic src="profile-pictures/profile-pic-12.jpg">
+                                </div>
+                                <div class="video-info">
+                                  <p class="title">
+                                    12 Must Try Indian Foods in Kolkata 🇮🇳
+                                  </p>
+                                  <p class="author">
+                                    Daily Max   
+                                  </p>
+                                  <p class="stats">
+                                    507K views &#183; 1 year ago
+                                  <6K/p>
+                                </div>
+                              </div>
+                              </div>
+
+                              <div class="video-preview">
+                                <div class="video-thumbnail">
+                                  <img class="thumbnail"  src="thumbnails/thumbnail-13.avif">
+                                  <div class="video-time">15:27</div>
+                                </div>
+                                <div class="video-pro-info">
+                                  <div class="video-pro-pic" >
+                                    <img class=pro-pic src="profile-pictures/profile-pic-13.jpg">
+                                  </div>
+                                  <div class="video-info">
+                                    <p class="title">
+                                      Google Pixel 9 Pro XL | 1 Month Review | I Love it !! | Malayalam
+                                    </p>
+                                    <p class="author">
+                                      CallMeShazzam TECH
+                                    </p>
+                                    <p class="stats">
+                                      497K views &#183; 6 months ago
+                                    <6K/p>
+                                  </div>
+                                </div>
+                                </div>
+
+                                <div class="video-preview">
+                                  <div class="video-thumbnail">
+                                    <img class="thumbnail"  src="thumbnails/thumbnail-14.avif">
+                                    <div class="video-time">3:17</div>
+                                  </div>
+                                  <div class="video-pro-info">
+                                    <div class="video-pro-pic" >
+                                      <img class=pro-pic src="profile-pictures/profile-pic-14.jpg">
+                                    </div>
+                                    <div class="video-info">
+                                      <p class="title">
+                                        Solo Living in Seoul | midnight munchies: corn dogs, castellan pancakes, and tornado omurice
+                                      </p>
+                                      <p class="author">
+                                        némo 김네모
+                                      </p>
+                                      <p class="stats">
+                                        217K views &#183; 1 month ago
+                                      <6K/p>
+                                    </div>
+                                  </div>
+                                  </div>
+
+                                  <div class="video-preview">
+                                    <div class="video-thumbnail">
+                                      <img class="thumbnail"  src="thumbnails/thumbnail-15.avif">
+                                      <div class="video-time">45:20</div>
+                                    </div>
+                                    <div class="video-pro-info">
+                                      <div class="video-pro-pic" >
+                                        <img class=pro-pic src="profile-pictures/profile-pic-15.jpg">
+                                      </div>
+                                      <div class="video-info">
+                                        <p class="title">
+                                          Career Scope of Cybersecurity | Fresher's Salary | Expert Reveals Industrial Secrets
+                                        </p>
+                                        <p class="author">
+                                          Brototype Malayalam
+                                        </p>
+                                        <p class="stats">
+                                          37K views &#183; 6 months ago
+                                        <6K/p>
+                                      </div>
+                                    </div>
+                                    </div>
+
+                                    
+
+               
+
+
+                   
+                  
+    </div>
+    
+              
+      
+  </body>
+</html>
